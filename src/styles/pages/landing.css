@@ -1,0 +1,91 @@
+#page-landing {
+    width: 100vw;
+    height: 100vh;
+    
+    
+    /* Gradiente / Blue */
+    
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page-landing #main {
+ 
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    max-height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#page-landing #main #topo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#page-landing #main #topo #location {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#page-landing #main #topo #location span {
+display: block;
+
+width: 100%;
+    text-align: center;
+}
+#page-landing #main #conteudo {
+ 
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+
+#page-landing #main #conteudo h1 {
+    font-size: 60px;
+    text-align: left;
+}
+#page-landing #main #center {
+    display: flex;
+    flex-direction: row;
+
+}
+#page-landing #main #conteudo p {
+    display: block;
+    margin-top: 16px;
+    text-align: justify;
+}
+#page-landing #main #center #animation {
+   
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+#page-landing #main #center #animation #enter-app {
+    display: block;
+   
+    margin: auto;
+    margin-right: 40px;
+    width: 90px;
+    height: 80px;
+    border-radius: 25px;
+    background-color: #ffd666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.100s;
+
+
+}
+#page-landing #main #center #animation #enter-app:hover {
+background-color: #96feff;    
+}
